@@ -1,0 +1,19 @@
+/* regole generali */
+
+/* regole selettive */
+
+/* debug */
+.container-fluid {
+  background-color: lightblue;
+  min-height: 1000px;
+}
+.row {
+  background-color: lightgray;
+  min-height: 150px;
+  border: 1px solid black;
+}
+[class*="col-"] {
+  background-color: lightgreen;
+  min-height: 150px;
+  border: 1px solid black;
+}
