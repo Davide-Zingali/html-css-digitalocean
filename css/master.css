@@ -1,5 +1,16 @@
 /* regole generali */
-
+.sfondo_blu_sfumato {
+  background: rgb(0,21,105);
+  background: linear-gradient(0deg, rgba(0,21,105,1) 0%, rgba(0,30,153,1) 35%, rgba(0,72,197,1) 100%);
+  padding: 50px 0;
+}
+/* selettore numero immagine carosello */
+.carousel-indicators .active {
+  background-color: blue;
+}
+.carousel-indicators li {
+  border: 1px solid black;
+}
 /* regole selettive */
 /* nav */
 
@@ -48,7 +59,10 @@ section ul {
 section:nth-child(2) .row {
   padding: 40px 0;
 }
-
+section:nth-child(2) > .row > div > div:first-child {
+  text-align: center;
+  padding-bottom: 50px;
+}
 /* lista con linea */
 .left_sx {
   height: 40px;
@@ -83,18 +97,70 @@ section:nth-child(4) h2 {
 section:nth-child(4) {
   padding: 40px 0;
 }
+
+/* quinta sezione */
+section:nth-child(5) * {
+  color: white;
+}
+
+/* sesta sezione */
+section:nth-child(6) h2 {
+  padding-bottom: 60px;
+}
+section:nth-child(6) img {
+  min-width: 400px;
+}
+section:nth-child(6) .carousel-caption {
+  font-size: 25px;
+  color: gray;
+  right: 3%;
+  left: 3%;
+  padding-bottom: 75px;
+}
+section:nth-child(6) .carousel-control.left, section:nth-child(6) .carousel-control.right {
+  background-image: none;
+}
+
+/* settima sezione */
+section:nth-child(7) h2 {
+  color: white;
+  text-align: center;
+}
+section:nth-child(7) .btn {
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  margin: 15px 0;
+}
+
+/* footer */
+footer > .row {
+  background-color: #031c4e;
+  padding: 50px 0;
+  color: white;
+}
+footer > .row ul {
+  list-style: none;
+  line-height: 26px;
+}
+footer > .row ul li a {
+  color: lightgray;
+}
+footer img {
+  padding-bottom: 20px;
+}
 /* debug */
 .container-fluid {
   /* background-color: lightblue; */
-  min-height: 1000px;
+  /* min-height: 1000px; */
 }
 .row {
   /* background-color: lightgray; */
-  min-height: 200px;
-  border: 1px solid black;
+  /* min-height: 200px; */
+  /* border: 1px solid black; */
 }
 [class*="col-"] {
   /* background-color: lightgreen; */
   /* min-height: 150px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
