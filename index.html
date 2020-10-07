@@ -27,15 +27,41 @@
       <!-- header jumbotron -->
       <header>
         <!-- row con sfondo img blu-->
-        <div class="row">
+        <div id="dz_jumbotron" class="row">
           <div class="col-xs-8 col-xs-offset-2">
             <!-- box sx -->
             <div class="col-xs-7">
-
+              <h1>Welcome to the developer cloud</h1>
+              <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
             </div>
-            <!-- box dx -->
-            <div class="col-xs-5">
-
+            <!-- box dx input sfondo pianco-->
+            <div class="col-xs-5 sfondo_bianco">
+              <!-- input presa da bootstrap -->
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <h2>Deploy your app in seconds. <br> <a href="#">Get started now.</a> </h2>
+                  <!-- input email -->
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <!-- input password -->
+                  <div class="col-sm-12">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <!-- bottoni input -->
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <button id="bottone_blu" type="submit" class="btn btn-default">create your account</button>
+                    <button id="padre_logog" type="submit" class="btn btn-default">
+                      <img id="logo_g" src="img/google-icon.png" alt=""> Sign up with google
+                    </button>
+                  </div>
+                  <p>By signing up you agree to the <a href="#">Term of Service.</a> </p>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -47,9 +73,14 @@
         <!-- prima sezione -->
         <section>
           <!-- row con sfondo grigio -->
-          <div class="row">
+          <div class="row sfondo_grigio">
             <div class="col-xs-8 col-xs-offset-2">
-
+                <img src="img/docker-bab60eeb.svg" alt="">
+                <img src="img/gitlab-166e2067.svg" alt="">
+                <img src="img/slack-e20293da.svg" alt="">
+                <img src="img/hashicorp-4431df79.svg" alt="">
+                <img src="img/wework-be6eab32.svg" alt="">
+                <img src="img/splunklogo.svg" alt="">
             </div>
           </div>
         </section>
@@ -175,7 +206,7 @@
             </div>
             <!-- box small dx -->
             <div class="col-xs-2">
-              
+
             </div>
           </div>
         </div>

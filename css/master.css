@@ -1,19 +1,56 @@
 /* regole generali */
 
 /* regole selettive */
+/* nav */
+
+/* header jumbotron */
+#dz_jumbotron {
+  background-image: url(../img/sfondo-home.jpg);
+  background-size: contain;
+  padding: 50px 0;
+}
+/* bottoni input */
+.btn {
+  display: block;
+  width: 100%;
+}
+#padre_logog {
+  position: relative;
+}
+#logo_g {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 20px;
+}
+#bottone_blu {
+  background-color: #579aff;
+  color: white;
+}
+.sfondo_bianco {
+  background-color: white;
+  border-radius: 6px;
+}
+
+/* main */
+/* prima sezione */
+.sfondo_grigio {
+  background-color: #F3F5F9;
+}
 
 /* debug */
 .container-fluid {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   min-height: 1000px;
 }
 .row {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   min-height: 150px;
   border: 1px solid black;
 }
 [class*="col-"] {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   min-height: 150px;
   border: 1px solid black;
 }
