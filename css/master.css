@@ -4,21 +4,50 @@
   background: linear-gradient(0deg, rgba(0,21,105,1) 0%, rgba(0,30,153,1) 35%, rgba(0,72,197,1) 100%);
   padding: 50px 0;
 }
-/* selettore numero immagine carosello */
+/* selettore cerchiato immagine carosello */
 .carousel-indicators .active {
   background-color: blue;
 }
 .carousel-indicators li {
   border: 1px solid black;
 }
+h2 {
+  text-align: center;
+}
 /* regole selettive */
 /* nav */
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+#img_nav {
+  width: 160px;
+  margin-right: 80px;
+  line-height: 45px;
+}
+nav img {
+  max-width: 100%;
+}
+nav .navbar {
+  margin-top: 20px;
+}
 
 /* header jumbotron */
-#dz_jumbotron {
+header > .row {
   background-image: url(../img/sfondo-home.jpg);
   background-size: contain;
   padding: 50px 0;
+}
+header > .row > div > div:first-child h1 {
+  color: white;
+  font-size: 57px;
+}
+header > .row > div > div:first-child p {
+  color: lightgray;
+  font-size: 20px;
+}
+header h2 {
+  font-size: 25px;
 }
 /* bottoni input */
 .btn {
@@ -42,6 +71,10 @@
 .sfondo_bianco {
   background-color: white;
   border-radius: 6px;
+}
+.form-horizontal p {
+  text-align: center;
+  padding-top: 80px;
 }
 
 /* main */
@@ -72,10 +105,10 @@ section:nth-child(2) > .row > div > div:first-child {
   padding-left: 10px;
 }
 .linea_grigia {
-  width: 2px;
+  width: 1px;
   height: 40px;
   float: left;
-  background-color: gray;
+  background-color: lightgray;
 }
 .contenitore_linea {
   content: "";
@@ -83,15 +116,20 @@ section:nth-child(2) > .row > div > div:first-child {
   clear: both;
 }
 .contenitore_linea:hover .linea_grigia {
-  background-color: red;
+  background-color: #016AFF;
 }
 /* fine lista con linea */
 
 /* terza sezione */
+section:nth-child(3) .row > div div:first-child {
+  padding-bottom: 50px;
+}
+section:nth-child(3) .row > div div:nth-child(3) {
+  padding-top: 20px;
+}
 
 /* quarta sezione */
 section:nth-child(4) h2 {
-  text-align: center;
   padding-bottom: 25px;
 }
 section:nth-child(4) {
@@ -124,7 +162,6 @@ section:nth-child(6) .carousel-control.left, section:nth-child(6) .carousel-cont
 /* settima sezione */
 section:nth-child(7) h2 {
   color: white;
-  text-align: center;
 }
 section:nth-child(7) .btn {
   text-align: center;
@@ -148,19 +185,4 @@ footer > .row ul li a {
 }
 footer img {
   padding-bottom: 20px;
-}
-/* debug */
-.container-fluid {
-  /* background-color: lightblue; */
-  /* min-height: 1000px; */
-}
-.row {
-  /* background-color: lightgray; */
-  /* min-height: 200px; */
-  /* border: 1px solid black; */
-}
-[class*="col-"] {
-  /* background-color: lightgreen; */
-  /* min-height: 150px; */
-  /* border: 1px solid black; */
 }

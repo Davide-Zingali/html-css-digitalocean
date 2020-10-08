@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Digital ocean</title>
   </head>
 
@@ -19,7 +19,72 @@
       <nav>
         <div class="row">
           <div class="col-xs-8 col-xs-offset-2">
+            <!-- inizio barra di navigazione aggiunta da bootstrap -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div id="img_nav">
+                  <img src="img/logo.png" alt="logo">
+                </div>
+              </div>
 
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Customers</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+                <!-- navbar parte dx -->
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Docs</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <form class="navbar-form navbar-left">
+                    <button type="submit" class="btn btn-default">Sign Up</button>
+                  </form>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </nav>
+            <!-- fine barra di navigazione bootstrap -->
           </div>
         </div>
       </nav>
@@ -27,11 +92,11 @@
       <!-- header jumbotron -->
       <header>
         <!-- row con sfondo img blu-->
-        <div id="dz_jumbotron" class="row">
+        <div class="row">
           <div class="col-xs-8 col-xs-offset-2">
             <!-- box sx -->
             <div class="col-xs-7">
-              <h1>Welcome to the developer cloud</h1>
+              <h1><strong>The simplest cloud platform for developer & teams</strong></h1>
               <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
             </div>
             <!-- box dx input sfondo pianco-->
@@ -201,17 +266,7 @@
                   <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img src="img/screenshot-create-droplet-12336b41.jpg" alt="...">
-                      <div class="carousel-caption">
-                        ...
-                      </div>
                     </div>
-                    <div class="item">
-                      <img src="img/SharedcaroselloScreenshot.jpg" alt="...">
-                      <div class="carousel-caption">
-                        ...
-                      </div>
-                    </div>
-                    ...
                   </div>
 
                   <!-- Controls -->
@@ -225,6 +280,9 @@
                   </a>
                 </div>
 
+              </div>
+              <div class="col-xs-12">
+                <p>Create compute servers in 55 seconds or less.</p>
               </div>
             </div>
           </div>
@@ -415,6 +473,13 @@
             <div class="col-xs-4">
               <img src="img/logo-small.svg" alt="">
               <p>© 2020 DigitalOcean, LLC. All rights reserved.</p>
+              <div class="dz_social">
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
             </div>
             <!-- box small sx -->
             <div class="col-xs-2">
