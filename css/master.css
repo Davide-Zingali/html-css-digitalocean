@@ -84,6 +84,9 @@ header h2 {
   padding: 50px 0;
   text-align: center;
 }
+.sfondo_grigio img {
+  width: 100%;
+}
 
 /* seconda sezione */
 section ul {
@@ -185,4 +188,7 @@ footer > .row ul li a {
 }
 footer img {
   padding-bottom: 20px;
+}
+#dz_social i {
+  padding-right: 8px;
 }
