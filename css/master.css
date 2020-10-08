@@ -22,7 +22,7 @@ h2 {
 }
 #img_nav {
   width: 160px;
-  margin-right: 80px;
+  margin-right: 10px;
   line-height: 45px;
 }
 nav img {
@@ -30,6 +30,9 @@ nav img {
 }
 nav .navbar {
   margin-top: 20px;
+}
+.nav > li > a {
+  padding: 15px 6px;
 }
 
 /* header jumbotron */
@@ -85,7 +88,7 @@ header h2 {
   text-align: center;
 }
 .sfondo_grigio img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* seconda sezione */
